@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://xinye-ohio.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://xinye-ohio.github.io" />
-<updated>2014-08-22T01:44:27-04:00</updated>
+<updated>2014-08-28T01:05:37-04:00</updated>
 <id>http://xinye-ohio.github.io/</id>
 <author>
   <name>Xin Ye</name>
@@ -310,7 +310,7 @@ end
 
 &lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
 
-&lt;figure class=&quot;half&quot;&gt;
+&lt;figure class=&quot;third&quot;&gt;
 	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
 	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
 	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;

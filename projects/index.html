@@ -153,11 +153,11 @@
   <li><a href="#virtual-boat-for-environmental-education">Virtual Boat for Environmental Education</a></li>
   <li><a href="#the-winkler-method-on-ipad">The Winkler Method on iPad</a></li>
   <li><a href="#teamwatch-a-3-d-visualization-tool-for-reviewing-software-repository">TeamWATCH: A 3-D Visualization Tool for Reviewing Software Repository</a></li>
-  <li><a href="#a-search-engine-for-ou-sites">A Search Engine for OU Sites</a></li>
+  <li><a href="#an-ou-web-search-engine">An OU Web Search Engine</a></li>
   <li><a href="#fast-face-detection-with-small-training-dataset">Fast Face Detection with Small Training Dataset</a></li>
-  <li><a href="#a-stock-exchange-application-on-iphone">A Stock Exchange Application on iPhone</a></li>
-  <li><a href="#an-igmp-based-simple-router">An IGMP-based Simple Router</a></li>
-  <li><a href="#booting-linux-with-u-boot-on-powerpc-within-a-fpga-dsp-based-digital-signal-processing-board">Booting Linux with U-Boot on PowerPC within a FPGA-DSP-based Digital Signal Processing Board</a></li>
+  <li><a href="#a-stock-exchange-application-on-ios">A Stock Exchange Application on iOS</a></li>
+  <li><a href="#an-ipv6-router">An IPv6 Router</a></li>
+  <li><a href="#booting-linux-with-u-boot-on-powerpc-on-a-fpga-dsp-based-digital-signal-processing-board">Booting Linux with U-Boot on PowerPC on a FPGA-DSP-based Digital Signal Processing Board</a></li>
 </ul>
 
   </div>
@@ -165,22 +165,138 @@
 <!-- /#table-of-contents -->
 
 <h3 id="learning-to-rank-relevant-files-for-bug-reports-using-domain-knowledge">Learning to Rank Relevant Files for Bug Reports using Domain Knowledge</h3>
+<figure class="third">
+    <a href="/images/fse-1.jpg"><img src="/images/fse-1.jpg" /></a>
+    <a href="/images/fse-2.jpg"><img src="/images/fse-2.jpg" /></a>
+	<a href="/images/fse-3.jpg"><img src="/images/fse-3.jpg" /></a>
+</figure>
+<ul>
+  <li>We developed a ranking model to recommend source code files to fix for a bug report.</li>
+  <li>The ranking model is a weighted combination of multiple features that every feature is a unique type of information measuring the relevance between a source file and the bug report. </li>
+  <li>The weight parameters of our ranking model is trained automatically using a learning-to-rank technique.</li>
+  <li>Through evaluations on six large-scale open source Java projects, our model achieved significantly better results than the state-of-the-art approaches.</li>
+  <li><b>Languages</b> used in this project: Java, Python, SQL</li>
+  <li><b>Tools/Libraries</b> used in this project: Git, Bugzilla, MySQL, JDT ASTParser, Apache Tika, Beautiful Soup, NLTK, JUNG, SVM^rank</li>
+  <li><b>Algorithms</b> used in this project: VSM, SVM^rank, PageRank, HITS</li>
+  <li><a href="http://oucsace.cs.ohiou.edu/~razvan/papers/fse14.pdf">[<font color="blue">Paper</font>]</a> <a href="presentation.pptx">[<font color="blue">Slides</font>]</a></li>
+</ul>
 
 <h3 id="virtual-boat-for-environmental-education">Virtual Boat for Environmental Education</h3>
+<figure class="third">
+    <a href="/images/vb-1.jpg"><img src="/images/vb-1.jpg" /></a>
+    <a href="/images/vb-3.jpg"><img src="/images/vb-3.jpg" /></a>
+	<a href="/images/vb-2.jpg"><img src="/images/vb-2.jpg" /></a>
+</figure>
+<ul>
+  <li>We developed a 3-D virtual boat (VB) game running on iPad devices for a NSF GK-12 project to assist high school teaching in Ohio.</li>
+  <li>Our VB game contains multiple scenarios in which each scenario corresponds to a dedicated lesson plan designed by a NSF GK-12 fellow.</li>
+  <li>Our VB game and the corresponding lesson plans have been using in the classrooms of 9 high schools in Ohio.</li>
+  <li><b>Languages</b> used in this project: Javascript, C#</li>
+  <li><b>Software</b> used in this project: Unity, Xcode, Google SketchUp, Autodesk Maya</li>
+  <li><a href="http://books.ohio.edu">[<font color="blue">Website</font>]</a> <a href="https://www.youtube.com/watch?v=JzA_uVL6hyA">[<font color="blue">Youtube</font>]</a></li>
+</ul>
 
 <h3 id="the-winkler-method-on-ipad">The Winkler Method on iPad</h3>
+<figure class="third">
+    <a href="/images/wm-1.jpg"><img src="/images/wm-1.jpg" /></a>
+    <a href="/images/wm-2.jpg"><img src="/images/wm-2.jpg" /></a>
+	<a href="/images/wm-3.jpg"><img src="/images/wm-3.jpg" /></a>
+</figure>
+<ul>
+  <li>We developed a 3-D mobile chemical experiment game for high school education.</li>
+  <li>The game mimics the classic <a href="http://serc.carleton.edu/microbelife/research_methods/environ_sampling/oxygen.html">Winkler Method</a> that was used to detect dissolved oxygen in water.</li>
+  <li><b>Languages</b> used in this project: Javascript</li>
+  <li><b>Software</b> used in this project: Unity, Xcode, Google SketchUp</li>
+</ul>
 
 <h3 id="teamwatch-a-3-d-visualization-tool-for-reviewing-software-repository">TeamWATCH: A 3-D Visualization Tool for Reviewing Software Repository</h3>
+<figure class="third">
+    <a href="/images/tm-1.jpg"><img src="/images/tm-1.jpg" /></a>
+    <a href="/images/tm-2.jpg"><img src="/images/tm-2.jpg" /></a>
+	<a href="/images/tm-3.png"><img src="/images/tm-3.png" /></a>
+</figure>
+<ul>
+  <li>We developed an interactive 3-D visualization tool for visualizing software projects’ version control repository.</li>
+  <li>In the visualization, a source code file is represented as a set of cylinders in which a small cylinder refers to a specific revision of this file.</li>
+  <li>Different colours of the cylinders refer to different developers/authors who contributed to the specific revisions.</li>
+  <li><b>Languages</b> used in this project: Javascript, php, C#</li>
+  <li><b>Software/Tools</b> used in this project: Unity, Eclipse, SVN</li>
+  <li><a href="http://dx.doi.org/10.1109/ACCESS.2014.2322102">[<font color="blue">Paper</font>]</a> <a href="https://www.youtube.com/watch?v=xPDilTwfySU&amp;feature=player_detailpage&amp;list=UUpjFnMEh2NctdgfvNBdy62Q">[<font color="blue">Youtube</font>]</a></li>
+</ul>
 
-<h3 id="a-search-engine-for-ou-sites">A Search Engine for OU Sites</h3>
+<h3 id="an-ou-web-search-engine">An OU Web Search Engine</h3>
+<figure class="third">
+    <a href="/images/wb-1.jpg"><img src="/images/wb-1.jpg" /></a>
+    <a href="/images/wb-2.jpg"><img src="/images/wb-2.jpg" /></a>
+</figure>
+<ul>
+  <li>I developed a search engine for searching websites within the ohio.edu domain and other websites related to Ohio University (OU).</li>
+  <li>I used Apache Nutch to crawl 117,620 web pages based on 10 OU websites as the seeds.</li>
+  <li>I used Apache Solr to index these 117,620 pages.</li>
+  <li>I built a search engine as a servlet running under Apache Tomcat. The servlet uses Apache Lucene libraries to search web pages within the index created by Solr.</li>
+  <li>This search engine supports VSM, BM25, and the Smoothed Unigram Language Model. It also uses anchor text for searching.</li>
+  <li><b>Languages</b> used in this project: Java, HTML</li>
+  <li><b>Tools/Libraries</b> used in this project: Apache Nutch, Solr, Lucene, Tomcat, Servlet</li>
+  <li><b>Algorithms</b> used in this project: VSM, BM25, Smoothed Unigram Language Model</li>
+  <li><a href="http://xinye-ohiou.rhcloud.com/cs6900/index.html">[<font color="blue">Demo</font>]</a> <a href="OU-search-engine.pdf">[<font color="blue">Report</font>]</a></li>
+</ul>
 
 <h3 id="fast-face-detection-with-small-training-dataset">Fast Face Detection with Small Training Dataset</h3>
+<figure class="third">
+    <a href="/images/fd-1.jpg"><img src="/images/fd-1.jpg" /></a>
+    <a href="/images/fd-2.jpg"><img src="/images/fd-2.jpg" /></a>
+	<a href="/images/fd-3.jpg"><img src="/images/fd-3.jpg" /></a>
+</figure>
+<ul>
+  <li>I developed a face detection program to automatically detect human faces from static images.</li>
+  <li>This program applies Principle Component Analysis (PCA) to create an eigenface subspace from the training images.</li>
+  <li>A training or a testing image can be represented as a weighted combination of the eigenfaces.</li>
+  <li>Therefore, an image can be represented by its weight vector in a lower dimension.</li>
+  <li>If the euclidean distance between the weight vector of a testing image and the weight vector of a human face image is below a threshold, then face detected.  </li>
+  <li><b>Languages</b> used in this project: C++</li>
+  <li><b>Tools/Libraries</b> used in this project: OpenCV (compiled on Solaris)</li>
+  <li><b>Algorithms</b> used in this project: PCA</li>
+  <li><a href="facedetect-xin.pdf">[<font color="blue">Report</font>]</a></li>
+</ul>
 
-<h3 id="a-stock-exchange-application-on-iphone">A Stock Exchange Application on iPhone</h3>
+<h3 id="a-stock-exchange-application-on-ios">A Stock Exchange Application on iOS</h3>
+<figure class="third">
+    <a href="/images/pj-1.jpg"><img src="/images/pj-1.jpg" /></a>
+    <a href="/images/pj-2.jpg"><img src="/images/pj-2.jpg" /></a>
+	<a href="/images/pj-3.jpg"><img src="/images/pj-3.jpg" /></a>
+</figure>
+<ul>
+  <li>We developed an iOS stock exchange application that can be launched on iPhone and iPad.</li>
+  <li>Users buy and sell stocks with virtual cash to compete for the most profitable day trader in the app.</li>
+  <li>The app fullfiled the user requirements from 5 wide, LLC in Cincinnati.</li>
+  <li>The app was developed by a small team with 4 developers that used SVN for version control and Redmine for issue tracking.</li>
+  <li><b>Languages</b> used in this project: Object-C (font-end), PHP (back-end), HTML (back-end), SQL (back-end)</li>
+  <li><b>Tools/Libraries</b> used in this project: Xcode, iOS 4.3 SDK, MySQL, Apache Webserver</li>
+  <li><b>Version Control</b>: Subversion</li>
+  <li><b>Issue Tracking</b>: Redmine</li>
+  <li><b>Memberships</b>: iOS Developer University Program – Ohio University (Electrical Engineering and Computer Science)</li>
+  <li><a href="https://www.youtube.com/watch?feature=player_embedded&amp;v=KdJ7Cmwrcl8">[<font color="blue">Youtube</font>]</a> <a href="POST-JOBS.pdf">[<font color="blue">Report</font>]</a></li>
+</ul>
 
-<h3 id="an-igmp-based-simple-router">An IGMP-based Simple Router</h3>
+<h3 id="an-ipv6-router">An IPv6 Router</h3>
+<ul>
+  <li>I developed an IPv6 router.</li>
+  <li>It responses to ICMP Echo request, UDP Echo, ND request, Router Advertisement, RIPng advertisement, ICMP error message, time exceed, and udp port unreachable.</li>
+  <li>It supports ARP table, routing table, and routing queues.</li>
+  <li>I used both the <b>Times 33</b> and the <b>Times 31</b> algorithm for double hashing to avoid hash collisions.</li>
+  <li>I used multi-threads in this project.</li>
+  <li><b>Languages</b> used in this project: C++</li>
+  <li><b>Libraries</b> used in this project: POSIX Threads</li>
+</ul>
 
-<h3 id="booting-linux-with-u-boot-on-powerpc-within-a-fpga-dsp-based-digital-signal-processing-board">Booting Linux with U-Boot on PowerPC within a FPGA-DSP-based Digital Signal Processing Board</h3>
+<h3 id="booting-linux-with-u-boot-on-powerpc-on-a-fpga-dsp-based-digital-signal-processing-board">Booting Linux with U-Boot on PowerPC on a FPGA-DSP-based Digital Signal Processing Board</h3>
+<ul>
+  <li>I modified and ran U-Boot on IBM PowerPC that was integrated within the Xilinx Virtex-II Pro FPGA on a digital signal processing board. </li>
+  <li>For debugging, I used U-Boot to load MontaVista Linux kernel and ramdisk image through TFTP.</li>
+  <li>For stable release, I used U-Boot to burn itself, the MontaVista Linux kernel, and the JFFS2 filesystem to a NAND flash device on the board.</li>
+  <li><b>Languages</b> used in this project: C</li>
+  <li><b>Tools</b> used in this project: U-Boot, MontaVista Linux</li>
+</ul>
 
     </div><!-- /.article-wrap -->
     
